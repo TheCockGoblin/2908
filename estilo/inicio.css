@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: heavy;
+  }
+
+  body
+  {
+    background-color: rgb(104, 54, 30);
+
+  }
+
+  .link
+  {
+    text-decoration: underline;
+  }
+  a:hover
+  {
+    color: gray;
+  }
+
+  ul
+  {
+    font-size: large;
+  }
+
+  .tudo
+  {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex: wrap;
+  }
+  
+  .header {
+    position: fixed;
+    display: flex;
+    flex: wrap;
+    flex-direction: row;
+    gap: 20%;
+    height: 6vh;
+    width: 100%;
+    z-index: 1;
+    background-color: brown;
+    font-size: larger;
+  }
+  .info {
+    margin-top: 6vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%; 
+    background-color: wheat;
+  }
+  .links
+  {
+    display: flex;
+    flex-direction: column;
+    gap: 8vh;
+    padding-left: 5vw;
+    font-size: xx-large;
+  }
+  
+  #title {
+    margin-left: 3%;
+  }
+  
+  #footer {
+    height: 50px;
+    width: 100%;
+    clear: both;
+    position: relative;
+  }
+  
+  .titulo
+  {
+    font-size: larger;
+  }
+  
+  p,
+  li 
+  {
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+  a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  @media only screen and (max-width: 430px) {
+    .left,
+    .right {
+      display: none;
+    }
+    .stuff {
+      width: 100%;
+      margin-left: 10px;
+    }
+  }
